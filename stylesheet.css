@@ -1,0 +1,181 @@
+.jumbotron {
+  padding-top: 20%;
+  background-color: #f2f2f2 !important;
+  min-height: 720px;
+}
+
+.font1 {
+	font-family: 'Courgette', cursive;
+}
+
+.padding {
+  padding-bottom: 500px;
+}
+
+.mini-pad {
+  padding-top: 100px;
+  text-align: center;
+}
+
+.work-pad{
+  padding-bottom: 50px;
+}
+
+.work-pics {
+  height: 200px;
+  width: 200px;
+}
+	
+.centre {
+	margin-right: 40%;
+	margin-left: 40%;
+	width: 20%;
+	height: auto;
+}
+
+.icons {
+	height: auto;
+	float: left;
+	width: 20%;
+}
+
+.icon-left {
+	margin-left: 20%;
+}
+
+.icon-space {
+	margin-right: 10%;
+	margin-left: 10%;
+}
+
+#pic {
+  border-radius: 50%;
+}
+
+.about-me-pic {
+	height: 50%;
+}
+
+.icon-bar {
+    width: 70px; /* Set a specific width */
+    background-color: #f2f2f2; /* Dark-grey background */
+	position: fixed;
+	top: 0%;
+}
+
+.icon-bar a {
+    display: block; /* Make the links appear below each other instead of side-by-side */
+    text-align: center; /* Center-align text */
+    padding: 5px; /* Add some padding */
+    transition: all 0.3s ease; /* Add transition for hover effects */
+    color: #808080; /* White text color */
+    font-size: 36px; /* Increased font-size */
+}
+
+.icon-bar a:hover {
+    background-color: #000; /* Add a hover color */
+}
+
+.dtHorizontalVerticalExampleWrapper {
+max-width: 600px;
+}
+#dtHorizontalVerticalExample th, td {
+white-space: nowrap;
+}
+
+  table.dataTable thead>tr>td.sorting,
+  table.dataTable thead>tr>td.sorting_asc,
+  table.dataTable thead>tr>td.sorting_desc,
+  table.dataTable thead>tr>th.sorting,
+  table.dataTable thead>tr>th.sorting_asc,
+  table.dataTable thead>tr>th.sorting_desc {
+    padding-right: 30px
+  }
+
+  table.dataTable thead .sorting,
+  table.dataTable thead .sorting_asc,
+  table.dataTable thead .sorting_asc_disabled,
+  table.dataTable thead .sorting_desc,
+  table.dataTable thead .sorting_desc_disabled {
+    cursor: pointer;
+    position: relative
+  }
+
+  table.dataTable thead .sorting:after,
+  table.dataTable thead .sorting:before,
+  table.dataTable thead .sorting_asc:after,
+  table.dataTable thead .sorting_asc:before,
+  table.dataTable thead .sorting_asc_disabled:after,
+  table.dataTable thead .sorting_asc_disabled:before,
+  table.dataTable thead .sorting_desc:after,
+  table.dataTable thead .sorting_desc:before,
+  table.dataTable thead .sorting_desc_disabled:after,
+  table.dataTable thead .sorting_desc_disabled:before {
+    position: absolute;
+    bottom: .5em;
+    display: block;
+    opacity: .3
+  }
+
+  table.dataTable thead .sorting:before,
+  table.dataTable thead .sorting_asc:before,
+  table.dataTable thead .sorting_asc_disabled:before,
+  table.dataTable thead .sorting_desc:before,
+  table.dataTable thead .sorting_desc_disabled:before {
+    right: 1em;
+    content: "\f0de";
+    font-family: FontAwesome;
+    font-size: 1rem
+  }
+
+  table.dataTable thead .sorting:after,
+  table.dataTable thead .sorting_asc:after,
+  table.dataTable thead .sorting_asc_disabled:after,
+  table.dataTable thead .sorting_desc:after,
+  table.dataTable thead .sorting_desc_disabled:after {
+    content: "\f0dd";
+    font-family: FontAwesome;
+    right: 16px;
+    font-size: 1rem
+  }
+
+  table.dataTable thead .sorting_asc:before,
+  table.dataTable thead .sorting_desc:after {
+    opacity: 1
+  }
+
+  table.dataTable thead .sorting_asc_disabled:before,
+  table.dataTable thead .sorting_desc_disabled:after {
+    opacity: 0
+  }
+
+/*  * {
+  box-sizing: border-box;
+}
+
+.proj {
+  text-align: left;
+  color: #000;
+}*/
+
+.margin-top {
+	margin-top: 30%;
+}
+
+.tails {
+  margin: auto; 
+  width:80%;
+}
+
+.carousel-inner{
+  max-height: 600px !important;
+} 
+
+.carousel-caption{
+  top: 0%;
+  color: red !important;
+}
+
+.work_image {
+  margin: auto;
+}
