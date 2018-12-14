@@ -1,2 +1,0 @@
-# CV
-twitter bootstrap CV
